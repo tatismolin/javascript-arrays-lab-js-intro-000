@@ -21,7 +21,7 @@ function appendKitten(name){
 }
 
 function prependKitten(name){ //need fix
-  var kittens = kittens.unshift('Arnold');
+  kittens.unshift('Arnold');
   return kittens;
 }
 
