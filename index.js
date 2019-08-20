@@ -21,7 +21,8 @@ function appendKitten(name){
 }
 
 function prependKitten(name){ //need fix
-  return kittens.unshift(name);
+  kittens.unshift(name);
+  return kittens;
 }
 
 function removeLastKitten(){
