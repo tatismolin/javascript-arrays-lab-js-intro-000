@@ -21,7 +21,7 @@ function appendKitten(name){
 }
 
 function prependKitten(name){ //need fix
-  kittens.concat();
+  kittens.concat(name);
   return kittens;
 }
 
