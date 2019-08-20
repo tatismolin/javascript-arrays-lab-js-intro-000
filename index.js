@@ -20,9 +20,8 @@ function appendKitten(name){
   return kittens.concat(name);
 }
 
-function prependKitten(name){ //need fix
-  kittens.unshift(name);
-  return kittens.slice(0);
+function prependKitten(name){
+  return [name..., kittens];
 }
 
 function removeLastKitten(){
